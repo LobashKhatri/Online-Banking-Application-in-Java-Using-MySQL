@@ -24,7 +24,7 @@ public class StartApp {
 
             switch (choice) {
                 case 1:
-                    // Logging into an existing account
+                    // Logging into an existing account 
                 	System.out.println("Your Account ID:");
                 	int accID= in.nextInt();
                 	System.out.println("Account 5 Digit Pin:");

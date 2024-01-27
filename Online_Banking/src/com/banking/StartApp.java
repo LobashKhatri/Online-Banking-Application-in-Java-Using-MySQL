@@ -23,6 +23,7 @@ public class StartApp {
             in.nextLine(); // Consume the newline character
 
             switch (choice) {
+      
                 case 1:
                     // Logging into an existing account 
                 	System.out.println("Your Account ID:");

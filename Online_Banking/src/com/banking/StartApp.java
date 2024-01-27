@@ -25,7 +25,15 @@ public class StartApp {
             switch (choice) {
                 case 1:
                     // Logging into an existing account
-                    // TODO: Implement login functionality
+                	System.out.println("Your Account ID:");
+                	int accID= in.nextInt();
+                	System.out.println("Account 5 Digit Pin:");
+                	int accPin=in.nextInt();
+                	
+                	// Calling the UserDAO to handle the account login process
+                	new UserDAO();
+                	UserDAO.accLogin(accID, accPin);
+
                     break;
 
                 case 2:

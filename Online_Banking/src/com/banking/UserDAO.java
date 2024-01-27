@@ -32,7 +32,7 @@ public class UserDAO {
 
         int pinConfirm = 0;
 
-        boolean loopFlag = true;
+        boolean loopFlag= true;
 
         // PIN creation loop
         while (loopFlag) {
